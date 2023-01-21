@@ -1,10 +1,10 @@
 {
-  "name": "Slides",
-  "version": "1.0.0",
+  "name": "slides.alexishenry.eu",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browser-sync start --server --directory --files \"public/slides/*/*.html\""
   },
   "keywords": [],
   "author": "",
