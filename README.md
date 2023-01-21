@@ -51,7 +51,19 @@ Slides diapositives like powerpoint for presentation in navigator. Made with Rev
 $ git clone https://github.com/AlxisHenry/slides.git
 ```
 
-Launch the server you want to use and enjoy my slides !
+**Install dependencies**
+
+```bash
+$ pnpm install
+```
+
+**Launch *browser-sync* server to active hot reload**
+
+```bash
+$ pnpm start
+```
+
+**In the openned page, go to `public\slides\{name}`**
 
 ## :wave: Contributors
 
