@@ -25,10 +25,10 @@
 
 # :notebook_with_decorative_cover: Summary
 
-- [:notebook\_with\_decorative\_cover: About the project](#star2-about-the-project)
-  * [:space\_invader: Techs](#space_invader-techs)
+- [:notebook_with_decorative_cover: About the project](#star2-about-the-project)
+  - [:space_invader: Techs](#space_invader-techs)
 - [:toolbox: Getting Started](#toolbox-getting-started)
-  * [:gear: Setup](#gear-setup)
+  - [:gear: Setup](#gear-setup)
 - [:wave: Authors](#wave-authors)
 
 ## :star2: About the project
@@ -57,7 +57,7 @@ $ git clone https://github.com/AlxisHenry/slides.git
 $ pnpm install
 ```
 
-**Launch *browser-sync* server to active hot reload**
+**Launch _browser-sync_ server to active hot reload**
 
 ```bash
 $ pnpm start
@@ -65,8 +65,24 @@ $ pnpm start
 
 **In the openned page, go to `public\slides\{name}`**
 
+_If you want to use the web interface, you need to create a Symlink of `slides` directory inside the public folder._
+
+```bash
+cd path/to/root;
+ln -s path/to/root/slides public/slides
+```
+
+Note that you need to have this line in your **Virtualhost** :
+
+```bash
+<Directory "/path/to/slides/public">
+  Options FollowSymLinks
+  ...
+</Directory>
+```
+
 ## :wave: Contributors
 
-* **Alexis Henry** _alias_ [@AlxisHenry](https://github.com/AlxisHenry)
+- **Alexis Henry** _alias_ [@AlxisHenry](https://github.com/AlxisHenry)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

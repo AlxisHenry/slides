@@ -17,6 +17,7 @@ deck.initialize({
   controls: inIframe ? true : false,
   hash: true,
   // disableLayout: true,
+  showNotes: true,
   transition: document.body.dataset.transition ?? "slide",
   display: "flex",
 });
