@@ -1,158 +1,360 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Green Book - Sur les routes du Sud</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-  <script type="module" src="../main.js" defer></script>
-  <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/monokai-sublime.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.4.0/dist/reveal.css">
-  <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css">
-  <link rel="stylesheet" href="../main.css">
-  <link rel="shortcut icon" href="" type="image/x-icon">
-  <style>
-    :root {
-      --primary: #f7fdfb;
-      --secondary: #acd9de;
-      --background: #007c94;
-    }
-  </style>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Book - Sur les routes du Sud</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="../main.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://highlightjs.org/static/demo/styles/monokai-sublime.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/reveal.js@4.4.0/dist/reveal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/reveal.js/dist/theme/black.css"
+    />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="shortcut icon" href="./greenbook.webp" type="image/x-icon" />
+    <style>
+      :root {
+        --primary: #f7fdfb;
+        --secondary: #acd9de;
+        --background: #007c94;
+      }
+    </style>
+  </head>
 
-<body>
-  <div class="reveal">
-    <div class="slides">
-
-      <section class="flex" data-transition="concave">
-        <div class="flex justify-center row gap-4">
-          <div>
-            <img style="border: solid 1px white;" alt="" src="greenbook.webp" width="600" height="700">
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Page d'arrivée -->
+        <section class="flex" data-transition="concave">
+          <div class="flex justify-center row gap-4">
+            <div>
+              <img
+                style="border: solid 1px white"
+                alt=""
+                src="greenbook.webp"
+                width="600"
+                height="700"
+              />
+            </div>
+            <div
+              class="flex col justify-center"
+              style="text-align: center; gap: 26px"
+            >
+              <h1 style="font-size: 115px" class="fragment fade-in uppercase">
+                Green Book
+              </h1>
+              <h3 class="fragment fade-in uppercase">Sur les routes du Sud</h3>
+              <p class="fragment fade-in">Peter Farrelly</p>
+            </div>
           </div>
-          <div class="flex col justify-center" style="text-align: center; gap: 26px;">
-            <h1 style="font-size: 115px;" class="fragment fade-in uppercase">Green Book</h1>
-            <h3 class="fragment fade-in uppercase">Sur les routes du Sud</h3>
-            <p class="fragment fade-in">Alizée Hett</p>
+        </section>
+
+        <!-- Sommaire -->
+        <section data-background-color="#055363" data-transition="concave">
+          <div
+            class="flex col justify-center"
+            style="
+              margin-top: 20px;
+              gap: 2px;
+              text-align: center;
+              position: fixed;
+              top: 0;
+              right: 0px;
+            "
+          >
+            <h1 style="font-size: 30px" class="uppercase">Green Book</h1>
+            <h3 style="font-size: 15px" class="uppercase">
+              Sur les routes du Sud
+            </h3>
           </div>
-        </div>
-      </section>
+          <h1>Sommaire</h1>
+          <ul>
+            <li class="fragment">
+              <a href="" style="text-decoration: none">Bande annonce</a>
+            </li>
+            <li class="fragment">
+              <a href="" style="text-decoration: none">Réalisateur</a>
+            </li>
+            <li class="fragment">
+              <a href="" style="text-decoration: none">
+                <strong style="color: var(--primary)"> Synopsis </strong>
+              </a>
+            </li>
+            <li class="fragment">
+              <a href="" style="text-decoration: none">
+                Lien avec le
+                <strong style="color: var(--primary)">voyage</strong></a
+              >
+            </li>
+            <li class="fragment">Bibliographie</li>
+            <li class="fragment">Question ouverte</li>
+          </ul>
+        </section>
 
-      <section data-background-color="#055363">
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-        <h1 style="margin-left: -50px;">Sommaire</h1>
-        <ul>
-          <li class="fragment"><strong style="color: var(--primary);">Bande annonce</strong></li>
-          <li class="fragment"><strong style="color: var(--primary);">Réalisateur</strong></li>
-          <li class="fragment">Présentation</li>
-          <li class="fragment">Lien avec le <strong style="color: var(--primary);">voyage</strong></li>
-          <li class="fragment">Bibliographie</li>
-          <li class="fragment">Question ouverte</li>
-        </ul>
-      </section>
+        <!-- Trailer du film -->
+        <section data-transition="concave">
+          <div
+            class="flex col justify-center"
+            style="
+              margin-top: 20px;
+              gap: 2px;
+              text-align: center;
+              position: fixed;
+              top: 0;
+              right: 0px;
+            "
+          >
+            <h1 style="font-size: 30px" class="uppercase">Green Book</h1>
+            <h3 style="font-size: 15px" class="uppercase">
+              Sur les routes du Sud
+            </h3>
+          </div>
+          <div class="flex justify-center row gap-4">
+            <video
+              style="border: solid 1px white"
+              controls
+              src="./trailer.mp4"
+              width="1500"
+              type="video/mp4"
+            ></video>
+          </div>
+        </section>
 
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-        <div class="flex justify-center row gap-4">
-          <iframe width="1500" height="800" src="https://www.youtube.com/embed/GhdFHzVNDlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </section>
+        <!-- Présentation du réalisateur -->
+        <section data-background-color="#055363" data-transition="concave">
+          <div
+            class="flex col justify-center"
+            style="
+              margin-top: 20px;
+              gap: 2px;
+              text-align: center;
+              position: fixed;
+              top: 0;
+              right: 0px;
+            "
+          >
+            <h1 style="font-size: 30px" class="uppercase">Green Book</h1>
+            <h3 style="font-size: 15px" class="uppercase">
+              Sur les routes du Sud
+            </h3>
+          </div>
+          <h2>Réalisateur</h2>
+          <div class="flex gap-4 items-center">
+            <div class="flex col" style="gap: 10px;">
+              <img style="border: solid 1px white;" width="500" height="auto" src="./peter.jfif">
+              <h4 style="opacity: .75;">Peter Farrelly</h4>
+            </div>
+            <div>
+              <ul>
+                <li>Né le 17 décembre 1956 à Phoenixville (Pennsylvanie)</li>
+                <li>Américain</li>
+                <li>Producteur d'une vingtaine de films</li>
+                <li>Distinctions</li>
+                <ul style="font-size: 30px; margin-top: 30px;">
+                  <li>Golden Globes 2019 : Meilleur scénario pour Green Book</li>
+                  <li>Oscars 2019 : Oscar du meilleur scénario original pour Green Book</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-      <section data-background-color="#055363">
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
+<!--
+        Résumé de Green Book : Sur les routes du sud
+        En 1962, alors que règne la ségrégation, Tony Lip (Viggo Mortensen), 
+        un videur italo-américain du Bronx, est engagé pour conduire et protéger le Dr Don Shirley (Mahershala Ali), 
+        un pianiste noir de renommée mondiale, lors d’une tournée de concerts. 
+        Durant leur périple de Manhattan jusqu’au Sud profond, ils s’appuient sur le Green Book pour 
+        dénicher les établissements accueillant les personnes de couleur, où l’on ne refusera pas de servir 
+        Shirley et où il ne sera ni humilié ni maltraité. Dans un pays où le mouvement des droits civiques commence 
+        à se faire entendre, les deux hommes vont être confrontés au pire de l’âme humaine, dont ils se 
+        guérissent grâce à leur générosité et leur humour. Ensemble, ils vont devoir dépasser leurs préjugés,
+        oublier ce qu’ils considéraient comme des différences insurmontables, pour découvrir leur humanité commune.
+        -->
+        <section>
+          <div
+            class="flex col justify-center"
+            style="
+              margin-top: 20px;
+              gap: 2px;
+              text-align: center;
+              position: fixed;
+              top: 0;
+              right: 0px;
+            "
+          >
+            <h1 style="font-size: 30px" class="uppercase">Green Book</h1>
+            <h3 style="font-size: 15px" class="uppercase">
+              Sur les routes du Sud
+            </h3>
+          </div>
+          <div class="flex justify-center gap-4">
+            <div>
+              <img
+                style="border: solid 1px white; margin-top: 145px"
+                alt="Image voyage"
+                src="https://img-4.linternaute.com/TZXOXR-KP07xH2xtQNkmSVER_w0=/1500x/smart/44d14c7504e44ebf8ebba3b97ecb3793/ccmcms-linternaute/22144916.jpg"
+                width="800"
+                height="auto"
+              />
+            </div>
+            <div class="flex col justify-center gap-2">
+              <h2>Synopsis</h2>
+              <ul>
+                <li>1962 : Année du voyage</li>
+                <li>Personnages principaux: </li>
+                <ul style="margin-top: 35px;">
+                  <li>Tony Lip : <strong>Viggo Mortensen</strong> <br> homme blanc, conducteur</li>
+                  <li>Dr Don Shirley : <strong>Mahershala Ali</strong> <br> Homme noir, pianiste</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
+        <!-- 
+        C'est un guide de voyage publié annuellement par un postier noir de New York : Victor Hugo Green :
+        - contexte de la ségrégation raciale aux Etats-Unis
+        - rescence les lieux ouverts aux afro-américains  
+        - livre dont ils se sont servis dans le film afin d'effectuer leur trajet
+        - transition voyage
+        -->
+        <section>
+          <div
+            class="flex col justify-center"
+            style="
+              margin-top: 20px;
+              gap: 2px;
+              text-align: center;
+              position: fixed;
+              top: 0;
+              right: 0px;
+            "
+          >
+            <h1 style="font-size: 30px" class="uppercase">Green Book</h1>
+            <h3 style="font-size: 15px" class="uppercase">
+              Sur les routes du Sud
+            </h3>
+          </div>
+          <div class="flex justify-center gap-4">
+            <div>
+              <img
+                style="border: solid 1px white; margin-top: 145px"
+                alt="Image voyage"
+                src="./gb.jpg"
+                width="500"
+                height="auto"
+              />
+            </div>
+            <div class="flex col justify-center gap-2">
+              <h3>The Negro Motorist Green Book</h3>
+              <ul>
+                <li>Guide de voyage</li>
+                <li>1936 – 1966</li>
+                <li>Victor Hugo Green </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-      <section data-background-color="#055363">
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
+        <!-- Lien avec le voyage -->
+        <section data-background-color="#055363" data-transition="concave">
+          <div
+            class="flex col justify-center"
+            style="
+              margin-top: 20px;
+              gap: 2px;
+              text-align: center;
+              position: fixed;
+              top: 0;
+              right: 0px;
+            "
+          >
+            <h1 style="font-size: 30px" class="uppercase">Green Book</h1>
+            <h3 style="font-size: 15px" class="uppercase">
+              Sur les routes du Sud
+            </h3>
+          </div>
+          <h2>Lien avec le voyage</h2>
+          <div class="flex gap-2 mt-2">
+            <!--  -->
+            <img width="800" src="./acteurs.jpg">
+            <img width="800" src="./trajet.jfif">
+          </div>
+        </section>
 
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
+        <!-- Bibliographie -->
+        <section data-transition="concave">
+          <div
+            class="flex col justify-center"
+            style="
+              margin-top: 20px;
+              gap: 2px;
+              text-align: center;
+              position: fixed;
+              top: 0;
+              right: 0px;
+            "
+          >
+            <h1 style="font-size: 30px" class="uppercase">Green Book</h1>
+            <h3 style="font-size: 15px" class="uppercase">
+              Sur les routes du Sud
+            </h3>
+          </div>
+          <h2>Bibliographie</h2>
+          <ul>
+            <li>
+              <a href="https://kifim.ouest-france.fr/film/green-book-sur-les-routes-du-sud/377678/">Green Book</a> 
+            </li>
+            <li>
+              <a href="https://www.senscritique.com/film/green_book_sur_les_routes_du_sud/28822859">Sens critique</a> 
+            </li>
+            <li>
+              <a href="https://fr.wikipedia.org/wiki/The_Negro_Motorist_Green_Book">The Negro Motorist Green Book</a> 
+            </li>
+            <li>
+              <a href="https://fr.wikipedia.org/wiki/Green_Book_:_Sur_les_routes_du_Sud">Page wikipedia</a> 
+            </li>
+            <li>
+              <a href="https://fr.wikipedia.org/wiki/Green_Book_:_Sur_les_routes_du_Sud">Page wikipedia</a> 
+            </li>
+          </ul>
+        </section>
 
-      <section data-background-color="#055363">
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-        <h2>Bibliographie</h2>
-      </section>
-
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-        <h2>Remerciements</h2>
-      </section>
-
-      <section>
-        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
-          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
-        </div>
-        <h2>Question d'ouverture</h2>
-      </section>
-
+        <!-- Question d'ouverture -->
+        <section data-transition="concave" data-background-color="#055363">
+          <div
+            class="flex col justify-center"
+            style="
+              margin-top: 20px;
+              gap: 2px;
+              text-align: center;
+              position: fixed;
+              top: 0;
+              right: 0px;
+            "
+          >
+            <h1 style="font-size: 30px" class="uppercase">Green Book</h1>
+            <h3 style="font-size: 15px" class="uppercase">
+              Sur les routes du Sud
+            </h3>
+          </div>
+          <h3 style="color: var(--primary);">La différence culturelle peut elle être une barrière au voyage ?</h3>
+        </section>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
