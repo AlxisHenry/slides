@@ -1,0 +1,154 @@
+@import "./utils.css";
+
+:root {
+  --background: #2323;
+  --primary: #2323;
+  --secondary: #232323;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: Montserrat, "sans serif";
+  background: var(--background) !important;
+  color: var(--primary) !important;
+  font-size: 40px;
+  padding: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  all: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+p {
+  color: var(--secondary);
+  line-height: 1.4;
+}
+
+strong {
+  color: var(--primary);
+}
+
+.slides > section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.stack1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+pre code,
+pre {
+  font: monospace;
+  line-height: 1.4;
+  min-height: auto !important;
+  font-size: inherit;
+}
+
+pre {
+  margin-inline: auto;
+  text-align: left;
+  min-width: 400px;
+  max-height: calc(100% - 40px);
+}
+
+pre code {
+  max-height: 100%;
+}
+
+img {
+  display: block;
+  margin-inline: auto;
+}
+
+ul {
+  list-style: disc;
+  width: max-content;
+  margin-inline: auto;
+  text-align: left;
+}
+
+ul.bare li {
+  display: block;
+}
+
+ul li + li {
+  margin-top: 1rem;
+}
+
+figcaption {
+  margin-top: 1em;
+  font-size: 0.5rem;
+}
+
+.small {
+  font-size: 0.5rem;
+}
+
+pre {
+  max-width: 100%;
+}
+
+/**
+* Reveal overrides
+**/
+.reveal .slides > section[data-transition="slide"].past,
+.reveal .slides > section[data-transition~="slide-out"].past,
+.reveal.slide .slides > section:not([data-transition]).past {
+  transform: translate(-75%, 0);
+}
+.reveal .slides > section[data-transition="slide"].future,
+.reveal .slides > section[data-transition~="slide-in"].future,
+.reveal.slide .slides > section:not([data-transition]).future {
+  transform: translate(75%, 0);
+}
+.controls-arrow,
+.progress span {
+  color: var(--secondary);
+}

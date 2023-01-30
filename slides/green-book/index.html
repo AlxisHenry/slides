@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Green Book - Sur les routes du Sud</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,10 +11,10 @@
   <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/monokai-sublime.css">
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.4.0/dist/reveal.css">
   <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css">
-  <link rel="stylesheet" href="../utils.css">
-  <link rel="shortcut icon" href="greenbook.webp" type="image/x-icon">
+  <link rel="stylesheet" href="../main.css">
+  <link rel="shortcut icon" href="" type="image/x-icon">
   <style>
-    :root body {
+    :root {
       --primary: #f7fdfb;
       --secondary: #acd9de;
       --background: #007c94;
@@ -27,137 +26,133 @@
   <div class="reveal">
     <div class="slides">
 
-      <section class="d-flex" data-transition="slide">
-        <div class="d-flex j-center" style="gap: 110px;">
+      <section class="flex" data-transition="concave">
+        <div class="flex justify-center row gap-4">
           <div>
             <img style="border: solid 1px white;" alt="" src="greenbook.webp" width="600" height="700">
           </div>
-        </div>
-      </section>
-
-      <section class="d-flex">
-        <div class="d-flex j-center" style="gap: 110px; flex-direction: row-reverse;">
-          <div>
-            <img style="border: solid 1px white;" alt="" src="greenbook.webp" width="600" height="700">
-          </div>
-          <div class="d-flex fl-col j-center" style="text-align: center; gap: 26px;">
-            <h1 style="font-size: 115px; text-transform: uppercase;" class="fragment fade-in">Green Book</h1>
-            <h3 style="text-transform: uppercase;" class="fragment fade-in">Sur les routes du Sud</h3>
-            <p class="fragment fade-in">Peter Farrelly</p>
+          <div class="flex col justify-center" style="text-align: center; gap: 26px;">
+            <h1 style="font-size: 115px;" class="fragment fade-in uppercase">Green Book</h1>
+            <h3 class="fragment fade-in uppercase">Sur les routes du Sud</h3>
+            <p class="fragment fade-in">Alizée Hett</p>
           </div>
         </div>
-        <aside class="notes">
-          Shhh, these are your private notes 📝
-        </aside>
       </section>
 
       <section data-background-color="#055363">
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
         </div>
-        <h2>Sommaire</h2>
-        <img src="./doc.webp" alt="" width="1048" style="margin-top: 16px;">
-      </section>
-
-      <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section data-background-color="#055363">
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section data-background-color="#055363">
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
-        </div>
-      </section>
-
-      <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
-        </div>
-        <h1>Les tabulations</h1>
-        <ul class="bare" style="margin-top: 1rem;">
-          <li class="fragment">✅ Un seul caractère "\t"</li>
-          <li class="fragment">❌ Le rendu varie</li>
+        <h1 style="margin-left: -50px;">Sommaire</h1>
+        <ul>
+          <li class="fragment"><strong style="color: var(--primary);">Bande annonce</strong></li>
+          <li class="fragment"><strong style="color: var(--primary);">Réalisateur</strong></li>
+          <li class="fragment">Présentation</li>
+          <li class="fragment">Lien avec le <strong style="color: var(--primary);">voyage</strong></li>
+          <li class="fragment">Bibliographie</li>
+          <li class="fragment">Question ouverte</li>
         </ul>
       </section>
 
+      <section>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
+        </div>
+        <div class="flex justify-center row gap-4">
+          <iframe width="1500" height="800" src="https://www.youtube.com/embed/GhdFHzVNDlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+
       <section data-background-color="#055363">
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
         </div>
       </section>
 
       <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
+        </div>
+      </section>
+
+      <section data-background-color="#055363">
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
         </div>
       </section>
 
       <section>
-        <figure>
-          <img src="./indent-space.webp" width="845" alt="">
-          <figcaption>Espace pour l'alignement & Tabulation</figcaption>
-        </figure>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
+        </div>
       </section>
 
-      <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
+      <section data-background-color="#055363">
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
         </div>
       </section>
 
       <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
         </div>
       </section>
 
       <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
         </div>
       </section>
 
       <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
         </div>
       </section>
 
       <section>
-        <div class="d-flex fl-col j-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
-          <h1 style="font-size: 30px; text-transform: uppercase;">Green Book</h1>
-          <h3 style="font-size: 15px; text-transform: uppercase;">Sur les routes du Sud</h3>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
         </div>
+      </section>
+
+      <section>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
+        </div>
+        <h2>Bibliographie</h2>
+      </section>
+
+      <section>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
+        </div>
+        <h2>Remerciements</h2>
+      </section>
+
+      <section>
+        <div class="flex col justify-center" style="margin-top: 20px; gap: 2px; text-align: center; position: fixed; top: 0; right: 0px;">
+          <h1 style="font-size: 30px;" class="uppercase">Green Book</h1>
+          <h3 style="font-size: 15px;" class="uppercase">Sur les routes du Sud</h3>
+        </div>
+        <h2>Question d'ouverture</h2>
       </section>
 
     </div>
   </div>
 </body>
-
 </html>
