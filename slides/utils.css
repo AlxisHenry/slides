@@ -1,0 +1,109 @@
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top {
+  top: 0;
+  right: 0;
+}
+
+.bottom {
+  bottom: 0;
+  right: 0;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.my-1 {
+  margin: 2rem 0 2rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0 2rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0 4rem 0;
+}
+
+.mx-2 {
+  margin: 0 2rem 0 2rem;
+}
+
+.mx-4 {
+  margin: 0 4rem 0 4rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.col-reverse {
+  flex-direction: column-reverse;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.gap-8 {
+  gap: 8rem;
+}
+
+.gap-16 {
+  gap: 16rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
