@@ -1,10 +1,9 @@
-import fs from "fs-extra"
+import fs from "fs-extra";
 
-const srcDir = "slides"
-const destDir = "dist/slides"
+const slides = "slides";
 
 try {
-  fs.copySync(srcDir, destDir)
+  fs.copySync(slides + "/.", "dist/", { recursive: true, overwrite: true });
 } catch (err) {
-  console.error("Failed to copy slides directory : ", err)
+  console.error("Failed to copy slides directory content : ", err);
 }
