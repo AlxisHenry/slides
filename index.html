@@ -15,5 +15,14 @@
       <li><a href="slides/presentation-epreuve-e4/">Présentation épreuve E4</a></li>
     </ul>
   </main>
+  <script>
+    const hostname = "alxishenry.github.io";
+    const links = document.querySelectorAll('a');
+    if (window.location.hostname !== hostname) {
+      links.forEach((link) => {
+        link.href = link.href.replace("slides/", "");
+      });
+    }
+  </script>
   </body>
 </html>
