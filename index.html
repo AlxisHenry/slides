@@ -18,7 +18,7 @@
   <script>
     const hostname = "alxishenry.github.io";
     const links = document.querySelectorAll('a');
-    if (window.location.hostname !== hostname) {
+    if (window.location.hostname === hostname) {
       links.forEach((link) => {
         link.href = link.href.replace("slides/", "");
       });
