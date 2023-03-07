@@ -1,4 +1,4 @@
-# Prensetations (slides)
+# Prensentations (slides)
 
 - [ ] "Je vais tout d'abord vous expliquer comment j'ai mis en place cette présentation"
 - [ ] Comment a t-il été developpé (revealjs, vite) ?
