@@ -1,8 +1,8 @@
 # Presentations (slides)
 
-- [ ] "Je vais tout d'abord vous expliquer comment j'ai mis en place cette présentation"
+- [ ] Contexte
 - [ ] Comment a t-il été developpé (revealjs, vite) ?
-- [ ] L'utilité ? => Découverte de nouvelles technologies, plus de liberté, ...
+- [ ] L'utilité ? (=> Découverte de nouvelles technologies, plus de liberté, ...)
 
 # Portfolio
 
