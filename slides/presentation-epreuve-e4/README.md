@@ -11,7 +11,7 @@
 - [ ] Présentation du formulaire de contact et de comment il fonctionne
 - [ ] Présentation du mode offline
 - [ ] Présentation des pages d'erreur
-- [ ] Présentation de l'appel à l'API de Wikipedia pour la définition des languages
+- [ ] Présentation de l'appel à l'API de Wikipedia pour la définition des langages
 - [ ] Basculer sur le thème sombre et montrer les différentes pages
 - [ ] Revenir sur les articles du flux rss ainsi que ceux de la veille technoliguqe
 - [ ] Montrer le panel d'administration (explication du fonctionnement ainsi que laravel filament)
