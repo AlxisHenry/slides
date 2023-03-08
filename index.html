@@ -16,9 +16,12 @@
     </ul>
   </main>
   <script>
-    const hostname = "alxishenry.github.io";
+    const hostnames = [
+      "alxishenry.github.io",
+      "alexishenry.eu
+    ];
     const links = document.querySelectorAll('a');
-    if (window.location.hostname === hostname) {
+    if (hostnames.includes(window.location.hostname)) {
       links.forEach((link) => {
         link.href = link.href.replace("slides/", "");
       });
