@@ -1,24 +1,31 @@
-# Presentations (slides)
+- [ ] Présentation personnelle
 
-- [ ] Contexte
-- [ ] Comment a t-il été developpé (revealjs, vite) ?
-- [ ] L'utilité ? (=> Découverte de nouvelles technologies, plus de liberté, ...)
+# Entreprise
 
-# Portfolio
+- [ ] Présentation de l'entreprise
 
-- [ ] Mise en place du contexte de développement
-- [ ] Présentation des différentes pages
-- [ ] Présentation du formulaire de contact et de comment il fonctionne
-- [ ] Présentation du mode offline
-- [ ] Présentation des pages d'erreur
-- [ ] Présentation de l'appel à l'API de Wikipedia pour la définition des langages
-- [ ] Basculer sur le thème sombre et montrer les différentes pages
-- [ ] Revenir sur les articles du flux rss ainsi que ceux de la veille technoliguqe
-- [ ] Montrer le panel d'administration (explication du fonctionnement ainsi que laravel filament)
-- [ ] Terminer par l'affichage des mentions légales 
+## Réalisations en entreprise
 
-# Documentations
+- [ ] Présentation de l'application développée
 
-- [ ] Passer par un projet afin de se rendre au site de documentations
-- [ ] À quoi il sert ?
-- [ ] Comment a-t-il été developpé (vitepress) ?
+# Formation et personnel
+
+## Réalisations en formation
+
+- [ ] Configuration d'Active Directory
+- [ ] Exploitations de vulnérabilités avec Burpsuite et Mutillidea
+- [ ] Installation et configuration de GLPI
+- [ ] Mise en place de wordpress
+- [ ] Mise en place d'un environnement de développement LAMP
+- [ ] Configuration d'Active Directory
+- [ ] Présentation de mon portfolio
+- [ ] Présentation de l'application CCI-Appro
+- [ ] Présentation de l'application Restiloc
+²
+## Réalisations personelles
+
+- [ ] Installation de TrueNAS
+- [ ] Présentation du CDN
+- [ ] Présentation du site de documentations
+- [ ] Présentation du site de timeline
+- [ ] Présentation de l'application restiloc réalisée en React Native
