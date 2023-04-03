@@ -16,7 +16,7 @@ deck.initialize({
   progress: inIframe ? true : false,
   controls: inIframe ? true : false,
   hash: true,
-  showNotes: true,
+  showNotes: false,
   transition: document.body.dataset.transition ?? "slide",
   display: "flex",
   mouseWheel: true
