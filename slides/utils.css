@@ -16,8 +16,18 @@
   right: 0;
 }
 
+.fw1 {
+  font-size: 1rem;
+}
+
 .left {
-  left: 0;
+  left: 0!important;
+  right: auto!important;
+}
+
+.right {
+  right: 0!important;
+  left: auto!important;
 }
 
 .mt-1 {

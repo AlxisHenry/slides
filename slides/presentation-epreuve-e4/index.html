@@ -31,28 +31,60 @@
         --secondary: #ff8100;
         --background: #fff;
       }
+
+      .roller {
+        position: fixed;
+        top: 0;
+        left: 0;
+        animation: roller 8s infinite ease-in-out;
+        opacity: .8;
+      }
+
+      .roller:nth-child(1) {
+        top: 25%;
+        right: -80%;
+      }
+      
+      .roller:nth-child(2) {
+        top: 70%;
+        left: 8%;
+        animation-delay: -3s;
+      }
+
+      @keyframes roller {
+        50% {
+          transform: translateY(1rem);
+        }
+      }
     </style>
   </head>
 
   <body>
+    <div class="decorations">
+      <div class="roller">
+        <img src="roulement.svg" alt="Roulement" />
+      </div>
+      <div class="roller">
+        <img src="roulement.svg" alt="Roulement" />
+      </div>
+      <div class="absolute" style="left: -13px; opacity: 0.8;">
+        <img style="border: solid 1px white" alt="" src="timken.png" />
+      </div>
+      <div class="absolute flex col items-right" style="gap: 5px; margin-top: 37px; right: 40px;">
+        <span style="color: black; font-size: 20px">HENRY Alexis</span>
+        <span style="color: black; font-size: 17px">BTS SIO - Option SLAM</span>
+        <span style="color: black; font-size: 17px"
+          >N° candidat : <b>01948527838</b></span
+        >
+      </div>
+      <footer class="absolute" style="bottom: 0; left: 10px;">
+        <img alt="" src="stronger.png" />
+      </footer>
+    </div>
+
     <div class="reveal">
       <div class="slides">
-        <section class="d-flex" data-transition="fade">
-          <div class="absolute top left">
-            <img style="border: solid 1px white" alt="" src="timken.png" />
-          </div>
-          <div
-            class="absolute top flex col items-right"
-            style="margin-top: 60px"
-          >
-            <span style="color: black; font-size: 20px">HENRY Alexis</span>
-            <span style="color: black; font-size: 17px"
-              >BTS SIO - Option SLAM</span
-            >
-            <span style="color: black; font-size: 17px"
-              >N° candidat : <b>01948527838</b></span
-            >
-          </div>
+        <section>
           <div class="flex col items-center" style="margin-top: -50px">
             <h1 style="color: black">Épreuve E4</h1>
             <div style="border: solid 1px black; width: 800px"></div>
@@ -66,50 +98,31 @@
               >Conception et maintenance de solutions informatiques</span
             >
           </div>
-          <footer class="absolute bottom left">
-            <img alt="" src="stronger.png" />
-          </footer>
           <aside class="notes">Qui suis-je ?</aside>
         </section>
 
-        <section class="d-flex" data-transition="concave">
-          <div class="absolute top left">
-            <img style="border: solid 1px white" alt="" src="timken.png" />
-          </div>
-          <div
-            class="absolute top flex col items-right"
-            style="margin-top: 60px"
-          >
-            <span style="color: black; font-size: 17px">HENRY Alexis</span>
-            <span style="color: black; font-size: 17px"
-              >BTS SIO - Option SLAM</span
-            >
-            <span style="color: black; font-size: 17px"
-              >N° candidat : <b>01948527838</b></span
-            >
-          </div>
+        <section>
           <div class="flex col items-center">
             <h2 class="black">Table des matières</h2>
             <div style="border: solid 1px black; width: 800px"></div>
             <li class="flex col mt-1 gap-1-4" style="margin-left: -60px">
-              <ul class="black">
+              <ul class="black fw1">
                 🔸Qui suis-je ?
               </ul>
-              <ul class="black">
-                🔸Présentation de
-                <span style="color: var(--secondary)">Timken</span>
+              <ul class="black fw1">
+                🔸Timken c'est quoi ?
               </ul>
-              <ul class="black">
+              <ul class="black fw1">
                 🔸Mon portfolio
               </ul>
-              <ul class="black">
+              <ul class="black fw1">
                 🔸Poursuite d'études
+              </ul>
+              <ul class="black fw1">
+                🔸Remerciements
               </ul>
             </li>
           </div>
-          <footer class="absolute bottom left">
-            <img alt="" src="stronger.png" />
-          </footer>
           <aside class="notes">
             Bonjour, je me présente, je suis Alexis Henry<br /><br />
             Nous allons tout d'abord aborder la présentation de Timken...<br /><br />
@@ -119,82 +132,68 @@
           </aside>
         </section>
 
-        <section class="d-flex" data-transition="concave">
-          <div class="absolute top left">
-            <img style="border: solid 1px white" alt="" src="timken.png" />
-          </div>
-          <div
-            class="absolute top flex col items-right"
-            style="margin-top: 60px"
-          >
-            <span style="color: black; font-size: 17px">HENRY Alexis</span>
-            <span style="color: black; font-size: 17px"
-              >BTS SIO - Option SLAM</span
-            >
-            <span style="color: black; font-size: 17px"
-              >N° candidat : <b>01948527838</b></span
-            >
-          </div>
+        <section>
           <div class="flex col items-center">
-            <h2 class="black">Qui suis-<span style="color: var(--secondary)">je</span> ?</h2>
+            <h2 class="black">Qui suis-je ?</h2>
             <div style="border: solid 1px black; width: 800px"></div>
           </div>
-          <footer class="absolute bottom left">
-            <img alt="" src="stronger.png" />
-          </footer>
+          <aside class="notes">
+            <a href="https://github.com/AlxisHenry" target="_blank">Github</a
+            ><br />
+            <a
+              href="https://www.linkedin.com/in/alexis-henry-b96923239/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </aside>
+        </section>
+
+        <section>
+          <div class="flex col items-center">
+            <h2 class="black">
+              <span style="color: var(--secondary)">Timken</span>, c'est quoi ?
+            </h2>
+            <div style="border: solid 1px black; width: 800px"></div>
+            <li
+              class="flex col mt-1 gap-1-4 fragment"
+              style="margin-left: -60px"
+            >
+              <ul class="black fw1 fragment fade-in">
+                🔸≈ 20 000 employés
+              </ul>
+              <ul class="black fw1 fragment fade-in">
+                🔸560 collaborateurs
+              </ul>
+              <ul class="black fw1 fragment fade-in">
+                🔸Près de 35 pays
+              </ul>
+            </li>
+          </div>
           <aside class="notes"></aside>
         </section>
 
-        <section class="d-flex" data-transition="concave">
-          <div class="absolute top left">
-            <img style="border: solid 1px white" alt="" src="timken.png" />
-          </div>
-          <div
-            class="absolute top flex col items-right"
-            style="margin-top: 60px"
-          >
-            <span style="color: black; font-size: 17px">HENRY Alexis</span>
-            <span style="color: black; font-size: 17px"
-              >BTS SIO - Option SLAM</span
-            >
-            <span style="color: black; font-size: 17px"
-              >N° candidat : <b>01948527838</b></span
-            >
-          </div>
+        <section>
           <div class="flex col items-center">
-            <h2 class="black">L'entreprise <span style="color: var(--secondary)">Timken</span></h2>
+            <h2 class="black">Poursuite d'études</h2>
             <div style="border: solid 1px black; width: 800px"></div>
           </div>
-          <footer class="absolute bottom left">
-            <img alt="" src="stronger.png" />
-          </footer>
-          <aside class="notes"></aside>
+          <aside class="notes">
+            <a href="https://alexishenry.eu/about" target="_blank"
+              >Poursuite d'études</a
+            >
+          </aside>
         </section>
 
-        <section class="d-flex" data-transition="concave">
-          <div class="absolute top left">
-            <img style="border: solid 1px white" alt="" src="timken.png" />
-          </div>
-          <div
-            class="absolute top flex col items-right"
-            style="margin-top: 60px"
-          >
-            <span style="color: black; font-size: 17px">HENRY Alexis</span>
-            <span style="color: black; font-size: 17px"
-              >BTS SIO - Option SLAM</span
-            >
-            <span style="color: black; font-size: 17px"
-              >N° candidat : <b>01948527838</b></span
-            >
-          </div>
+        <section>
           <div class="flex col items-center">
-            <h2 class="black">Poursuite d'<span style="color: var(--secondary)">études</span></h2>
+            <h2 class="black">Remerciements</h2>
             <div style="border: solid 1px black; width: 800px"></div>
           </div>
-          <footer class="absolute bottom left">
-            <img alt="" src="stronger.png" />
-          </footer>
-          <aside class="notes"></aside>
+          <aside class="notes">
+            <a href="https://alexishenry.eu/about" target="_blank"
+              >Poursuite d'études</a
+            >
+          </aside>
         </section>
       </div>
     </div>
