@@ -5,5 +5,8 @@ export default defineConfig({
 	build: {
 		copyPublicDir: false,
 		outDir: 'dist',
+	},
+	preview: {
+		port: 3000,
 	}
 });
