@@ -2,7 +2,6 @@
 
 <div align="center">
 
-  <img src="https://cdn.alexishenry.eu/shared/images/logo.png" alt="logo" width="220" height="auto" />
   <h1>Slides</h1>
   
   <p>
