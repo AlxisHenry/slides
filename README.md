@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1>Slides</h1>
+  <h1>slides</h1>
   
   <p>
     <strong>Slides diapositive</strong><br>
